@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0/EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.tomorrow.pjt.user.model.UserVO" alias="UserVO"/>
+		<typeAlias type="com.tomorrow.pjt.user.model.UserDMI" alias="UserDMI"/>
+		<typeAlias type="com.tomorrow.pjt.user.model.UserPARAM" alias="UserPARAM"/>
+<!-- 		<typeAlias type="com.tomorrow.pjt.user.modelRestVO" alias="RestVO"/>
+		<typeAlias type="blog.hyojin4588.matzip.rest.model.RestPARAM" alias="RestPARAM"/>
+		<typeAlias type="blog.hyojin4588.matzip.rest.model.RestDMI" alias="RestDMI"/> 
+		<typeAlias type="blog.hyojin4588.matzip.model.CodeVO" alias="CodeVO"/>
+		<typeAlias type="blog.hyojin4588.matzip.rest.model.RestRecMenuVO" alias="RestRecMenuVO"/>
+	-->
+	</typeAliases>
+</configuration>
